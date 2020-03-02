@@ -1,0 +1,16 @@
+RULE
+
+-LIFEFORM
+    -Type (Spec name)
+    -Gender (M / F)
+    -Colour (RGB)
+    -Speed (int) //Found by size.strength.weight ratio
+    -Size (int)
+    -Strength (int)
+    -Weight (int)
+    -Hunts (targ ID)
+    -Stomach (int) //Input required to maintain health, otherwise stats drop next cycle
+
+-RESOURCE
+    -Type (plant, body)
+    -Value (int) //value of resource found by weight / size ratio
